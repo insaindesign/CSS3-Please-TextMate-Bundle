@@ -4,15 +4,21 @@ A modified version of https://github.com/filipepina/CSS3-Please-TextMate-Bundle 
 
 This version uses the full set of browser vendor prefixes (and removes the IE filter fallbacks as they are a performance and maintenance nightmare).
 
-h2. Snippets Included (tab trigger):
+h2. Snippets Included:
 
 * border-radius (border-radius)
 * box-shadow (box-shadow)
-* rgba (rgba)
 * linear-gradient (linear-gradient)
 * transition (transition)
 
+h3. Use
 
-h2. Use
+Type one of the shortcuts in your css file (ie linear-gradient), press TAB to focus the first "variable", input a value, press TAB to change focus on the following "variable", step and repeat.
 
-For snippets, type one of the shortcuts in your css file (ie linear-gradient), press TAB to focus the first "variable", input a value, press TAB to change focus on the following "variable".
+h2. Commands
+
+* rgba (rgba)
+
+h3. Use
+
+Type one of the shortcuts in your css file (ie rgba), then input the values into the prompts.
