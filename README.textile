@@ -1,16 +1,18 @@
 h1. CSS3 Please.tmbundle
 
-Simple TM Bundle with a bunch of snippets taken from "css3please.com":http://www.css3please.com/ to make it easy to write "cross browser" css3 rules
+A modified version of https://github.com/filipepina/CSS3-Please-TextMate-Bundle (A Simple TM Bundle with a bunch of snippets taken from "css3please.com":http://www.css3please.com/ to make it easy to write "cross browser" css3 rules).
+
+This version uses the full set of browser vendor prefixes (and removes the IE filter fallbacks as they are a performance and maintenance nightmare).
 
 h2. Snippets Included (tab trigger):
-* border-radius (borderrad)
-* box-shadow (boxshadow)
+
+* border-radius (border-radius)
+* box-shadow (box-shadow)
 * rgba (rgba)
-* background-gradient (bggradient)
+* linear-gradient (linear-gradient)
 * transition (transition)
-* rotate (rotate)
-* font-face (fontface)
 
 
-h3. TODO
-* add direction options to background-gradient
+h2. Use
+
+For snippets, type one of the shortcuts in your css file (ie linear-gradient), press TAB to focus the first "variable", input a value, press TAB to change focus on the following "variable".

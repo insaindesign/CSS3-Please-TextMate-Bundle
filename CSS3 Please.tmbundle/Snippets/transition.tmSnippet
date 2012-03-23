@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-moz-transition: ${1:all} ${2:0.3s} ${3:ease-out};  /* FF3.7+ */
+	<string>-moz-transition: ${1:all} ${2:0.3s} ${3:ease-out};  /* Firefox 4+ */
 -o-transition: $1 $2 $3;  /* Opera 10.5 */
--webkit-transition: $1 $2 $3;  /* Saf3.2+, Chrome */</string>
+-ms-transition: $1 $2 $3;  /* IE 10 */
+-webkit-transition: $1 $2 $3;  /* Safari 3.1+, Chrome 4.0+ */
+transition: $1 $2 $3;  /* Le Standard */</string>
 	<key>name</key>
 	<string>transition</string>
 	<key>scope</key>
